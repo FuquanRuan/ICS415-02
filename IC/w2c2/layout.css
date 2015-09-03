@@ -1,0 +1,38 @@
+#outer{
+    border-style: solid;
+    border-width: 1px;
+    margin: 2px 2px 2px 2px;
+}
+#homepage {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+
+}
+
+#links{
+    border-style: solid;
+    border-width: 1px;
+    text-align: left;
+    margin: 2px 2px 2px 2px;
+}
+
+#summary {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+
+    width: 25%;
+}
+
+
+#homepageIn{
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+
+    width: 73.4%;
+}
