@@ -1,6 +1,5 @@
 #outder{
     margin: 2px 2px 2px 2px;
-
 }
 #header{
     margin-bottom: 10%;
@@ -20,7 +19,7 @@
 #middletext{
     padding-top: 1%;
 }
-#sidebar{
+#sidebar{]
     border-style: solid;
     border-width: 1px;
     border-left: hidden;
@@ -35,10 +34,11 @@
     border-style: solid;
     border-width: 1px;
     border-right: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
     width: 74.94%;
     height: 600px;
-    float:right;
-
+    margin-left: 30%;
 }
 
 #footer{
@@ -47,6 +47,7 @@
     border-left: hidden;
     border-right: hidden;
     padding-bottom: 50px;
+
 }
 
 #borderless{
