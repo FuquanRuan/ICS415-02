@@ -1,0 +1,57 @@
+#outder{
+    margin: 2px 2px 2px 2px;
+
+}
+#header{
+    margin-bottom: 10%;
+}
+
+#header2{
+    margin-bottom: auto;
+}
+#navbar{
+    height: 50px;
+    border: solid;
+    border-width: 1px;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+#middletext{
+    padding-top: 1%;
+}
+#sidebar{
+    border-style: solid;
+    border-width: 1px;
+    border-left: hidden;
+    border-right: none;
+    width: 25%;
+    height: 600px;
+    float:left;
+
+}
+
+#mainpage{
+    border-style: solid;
+    border-width: 1px;
+    border-right: hidden;
+    width: 74.94%;
+    height: 600px;
+    float:right;
+
+}
+
+#footer{
+    border-style: solid;
+    border-width: 1px;
+    border-left: hidden;
+    border-right: hidden;
+    padding-bottom: 50px;
+}
+
+#borderless{
+    width: 6%;
+    border-style: none;
+    text-align: center;
+}
+
