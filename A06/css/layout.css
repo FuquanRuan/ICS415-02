@@ -1,0 +1,49 @@
+#body{
+    border-bottom: solid;
+    border-width: 1px;
+    background-color: #1b6d85;
+}
+
+#footer{
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#sidebar{
+    border-right: solid;;
+    border-width: 1px;
+    margin-right: 15px;
+    height: 500px;
+    background-color: #141823;
+    color: white;
+    text-align: center;
+}
+
+#mainpage{
+    border: dashed;
+    border-width: 1px;
+    height: 500px;
+    border-color: blue;
+    padding: 0%;
+    background-color: #141823;
+    color: white;
+}
+
+#footerrow{
+    margin: 5px 2px;
+    background-color: #141823;
+    color: white;
+    text-align: center;
+}
+
+#header{
+    border-bottom: solid;
+    border-width: 1px; 
+    border-bottom-color: silver;
+    height: 100px;
+    padding: 25px 0%;
+    background-color: #141823;
+    color: white;
+    font-weight: bold;
+}

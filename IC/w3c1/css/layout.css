@@ -1,0 +1,21 @@
+#footer{
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#sidebar{
+    border-right: solid;;
+    border-width: 1px;
+    height: 500px;
+}
+
+#mainpage{
+    border: dashed;
+    border-width: 1px;
+    height: 500px;
+}
+
+#footerrow{
+    margin: 5px 2px;
+}

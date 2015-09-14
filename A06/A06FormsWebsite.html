@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML/Bootstrap Form Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+<div class="container-fluid" id="body">
+    <div class="h1" id="header">
+        Fuquan's Page
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="html_bootstrap.html">Home</a></li>
+                    <li><a href="A06Website.html">Info</a></li>
+                    <li class="active"><a href="A06FormsWebsite.html">Form</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row" style="margin-right: 1px">
+        <div class="col-sm-4" >
+            <div id="sidebar">
+                <p>Summary Window</p>
+                <p>Bootstrap support form</p>
+                <p>>Make really nice looking form</p>
+            </div>
+        </div>
+
+        <div class="col-sm-8" id="mainpage">
+            <form role="form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+
+                <div class="form-group">
+                    <label for="color">Color:</label>
+                    <input type="color" class="form-control" id="color">
+                </div>
+                <div class="form-gourp">
+                    <label for="date">Date:</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="number">Number:</label>
+                    <input type="number" class="form-control" id="number">
+                </div>
+                <div class="form-group">
+                    <label for="range">Range:</label>
+                    <input type="range" class="form-control" id="range">
+                </div>
+
+
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="row" id="footerrow">
+        <div class="col-sm-12" id="footer">
+            Copyright by Fuquan Ruan<br><br>
+        </div>
+    </div>
+</div>
+</body>
+</html>

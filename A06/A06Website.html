@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML/Bootstrap Info Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+<div class="container-fluid" id="body">
+    <div class="h1" id="header">
+        Fuquan's Page
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="html_bootstrap.html">Home</a></li>
+                    <li class="active"><a href="A06Website.html">Info</a></li>
+                    <li><a href="A06FormsWebsite.html">Form</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row" style="margin-right: 1px">
+        <div class="col-sm-4" >
+            <div id="sidebar">
+                <p>Summary Window</p>
+                <p>HTML supports bootstrap</p>
+                <p>Sidebar is in a row</p>
+                <p>Small Column 4</p><br>
+                <p>Each Row must have 12 column</p>
+            </div>
+        </div>
+
+        <div class="col-sm-8" id="mainpage">
+            <h1>Info Page</h1>
+            <div class="btn btn-default btn-lg">Default</div>
+            <div class="btn btn-primary btn-lg">Primary</div>
+            <div class="btn btn-lg btn-success">Success</div>
+            <div class="btn btn-lg btn-info">Info</div>
+            <div class="btn btn-lg btn-warning">Warning</div>
+            <div class="btn btn-lg btn-danger">Danger</div>
+
+            <ul class="nav nav-tabs">
+               <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+                <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+                <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+                <li class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown">
+                        Dropdown
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active"><h1>Home</h1></div>
+                <div id="menu1" class="tab-pane fade"><h1>Menu 1</h1></div>
+                <div id="menu2" class="tab-pane fade"><h1>Menu 2</h1></div>
+                <div id="menu3" class="tab-pane fade"><h1>Menu 3</h1></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row" id="footerrow">
+        <div class="col-sm-12" id="footer">
+            Copyright by Fuquan Ruan<br><br>
+        </div>
+    </div>
+</div>
+</body>
+</html>
