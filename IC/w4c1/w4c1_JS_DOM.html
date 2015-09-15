@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>w4c1_JS_DOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+<div class="container">
+    <div id="default" class="btn btn-sm btn-default" onclick="defaultFunction()" >
+        Default
+    </div>
+    <div id="danger" class="btn btn-lg btn-danger" onmouseover="dangerFunction()">Danger</div>
+    <div id="warning" class="btn btn-sm btn-warning" onmouseout="warningFunction()">Warning</div>
+</div>
+
+<script>
+    function defaultFunction()
+    {
+        if(document.getElementById("default").className == "btn btn-lg btn-default")
+        {
+            document.getElementById("default").className = "btn btn-sm btn-default";
+        }else
+        {
+            document.getElementById("default").className = "btn btn-lg btn-default";
+            document.getElementById("default").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/vjW8wmF5VWc" frameborder="0" allowfullscreen></iframe>';
+        }
+
+        if(document.getElementById("danger").className == "btn btn-lg btn-danger")
+        {
+            document.getElementById("danger").className = "btn btn-sm btn-danger";
+        }else
+        {
+            document.getElementById("danger").className = "btn btn-lg btn-danger";
+        }
+
+    }
+
+    function dangerFunction()
+    {
+        if(document.getElementById("danger").className == "btn btn-lg btn-danger")
+        {
+            document.getElementById("danger").className = "btn btn-sm btn-danger";
+        }else
+        {
+            document.getElementById("danger").className = "btn btn-lg btn-danger";
+        }
+    }
+
+    function warningFunction()
+    {
+        if(document.getElementById("warning").className == "btn btn-sm btn-warning")
+        {
+            document.getElementById("warning").className = "btn btn-sm btn-success";
+            document.getElementById("warning").innerHTML = "success"
+        }else
+        {
+            document.getElementById("warning").className = "btn btn-sm btn-warning";
+            document.getElementById("warning").innerHTML = "warning"
+        }
+    }
+</script>
+</body>
+</html>
