@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+<div class="container-fluid" id="body">
+    <div class="h1" id="header">
+        Fuquan's Page
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="A06FormsWebsite.html">Form</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row" style="margin-right: 1px">
+        <div class="col-sm-4" >
+            <div id="sidebar">
+                <p>Summary Window</p>
+                <p>Bootstrap support form</p>
+                <p>>Make really nice looking form</p>
+            </div>
+        </div>
+
+        <div class="col-sm-8" id="mainpage">
+            <form>
+            <div class="foo bar" id="foobar">foobar</div>
+                <p id="className"></p>
+            <label for="inputClass">Input Class</label>
+            <input type="text" id="inputClass" style="color: black;">
+                <input type="button" value="Submit" onclick="callAddClass()" style="color: black;">
+            </form>
+            <br>
+            <div id="error"></div>
+            <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+                <div class="form-group">
+                    <label for="username" >User name: </label>
+                    <input type="text" name="name" id="username" style="color: black;">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" style="color: black;">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" style="color: black;">
+                </div>
+                <div class="form-group">
+                    <label for="confirm">Confirm Password: </label>
+                    <input type="password" name="confirm" id="confirm" style="color: black;">
+                </div>
+                <input type="submit" value="Submit" style="color: black;">
+            </form>
+        </div>
+    </div>
+    <div class="row" id="footerrow">
+        <div class="col-sm-12" id="footer">
+            Copyright by Fuquan Ruan<br><br>
+        </div>
+    </div>
+</div>
+
+
+<script src="myScript.js"></script>
+</body>
+</html>
